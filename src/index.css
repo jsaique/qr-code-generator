@@ -40,6 +40,7 @@ body {
 }
 
 .qr-input {
+  font-size: 1rem;
   padding: 1rem;
   border: 1px solid hsl(175, 84%, 32%);
   border-top-left-radius: 10px;

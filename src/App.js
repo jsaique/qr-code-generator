@@ -16,7 +16,6 @@ export default function App() {
   };
 
   const generateQR = (e) => {
-    console.log("generateQR called");
     // Prevents the form to load
     e.preventDefault();
     // Verify if the input is empty
