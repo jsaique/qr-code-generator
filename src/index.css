@@ -1,7 +1,7 @@
 body {
   margin: 0;
   /* 100 300 500 700 900 */
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .title-container {
@@ -17,6 +17,9 @@ body {
   color: hsl(0, 0%, 100%);
   text-align: center;
 }
+.error-msg {
+  color: red;
+}
 
 .qr-container {
   display: flex;
@@ -29,9 +32,9 @@ body {
   width: 100%;
 }
 
-.input-container{
+.input-container {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   margin-bottom: 1.5rem;
 }
@@ -68,12 +71,12 @@ input::placeholder {
 
 .btn:hover {
   background-color: hsl(189, 94%, 43%);
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
-.btn:active {
+/* .btn:active {
   background-color: hsl(187, 92%, 69%);
-}
+} */
 
 .btn:focus {
   outline: none; /* removes the default focus outline */
@@ -94,4 +97,3 @@ input::placeholder {
     max-width: 100%;
   }
 }
-
