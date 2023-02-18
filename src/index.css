@@ -4,6 +4,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+::selection {
+  background-color: #ccfbf1;
+}
+
 .title-container {
   width: 100%;
   padding: 0.5rem 0;
@@ -42,7 +46,7 @@ body {
 .qr-input {
   font-size: 1rem;
   padding: 1rem;
-  border: 1px solid hsl(175, 84%, 32%);
+  border: 0.5px solid hsl(175, 84%, 32%);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   width: 35vw;

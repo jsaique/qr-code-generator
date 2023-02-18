@@ -9,7 +9,7 @@ export default function App() {
   const handleChange = (e) => {
     // Setting the form text value
     setText(e.target.value);
-    // Hide QR code when the input change
+    // Hide default QR code when the input change
     setShowQR(false);
     // Clears the error when input is filled
     setError("");
