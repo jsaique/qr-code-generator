@@ -25,6 +25,13 @@ body {
   color: red;
 }
 
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
 .qr-container {
   display: flex;
   align-items: center;
@@ -34,13 +41,6 @@ body {
   margin-bottom: 2rem;
   max-width: 50%;
   width: 100%;
-}
-
-.input-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1.5rem;
 }
 
 .qr-input {
@@ -60,6 +60,7 @@ body {
 
 input::placeholder {
   font-size: 1rem;
+  color: hsl(0, 0%, 65%);
 }
 
 .btn {
@@ -86,6 +87,13 @@ input::placeholder {
 .btn:focus {
   outline: none; /* removes the default focus outline */
   background-color: hsl(175, 84%, 32%);
+}
+
+.cta {
+  color: hsl(0, 0%, 36%);
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
 }
 
 @media (max-width: 48rem) {
