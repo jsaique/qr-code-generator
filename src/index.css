@@ -80,10 +80,6 @@ input::placeholder {
   transition: 0.5s ease;
 }
 
-/* .btn:active {
-  background-color: hsl(187, 92%, 69%);
-} */
-
 .btn:focus {
   outline: none; /* removes the default focus outline */
   background-color: hsl(175, 84%, 32%);
